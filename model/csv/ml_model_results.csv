@@ -1,0 +1,382 @@
+features,model,accuracy
+"('mfccs', 'spectral_contrast', 'rms_energy')",Logistic Regression,0.8942065491183879
+"('mfccs', 'spectral_contrast', 'zcr')",Logistic Regression,0.8942065491183879
+"('mfccs', 'spectral_contrast')",Logistic Regression,0.8942065491183879
+"('mfccs', 'spectral_contrast', 'zcr', 'rms_energy')",Logistic Regression,0.8942065491183879
+"('mfccs', 'chroma', 'spectral_contrast', 'rms_energy')",Logistic Regression,0.8916876574307305
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr')",Logistic Regression,0.8916876574307305
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rms_energy')",Logistic Regression,0.8916876574307305
+"('mfccs', 'chroma', 'spectral_contrast')",Logistic Regression,0.889168765743073
+"('mfccs', 'spectral_contrast', 'centroid', 'rms_energy')",Logistic Regression,0.8866498740554156
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff', 'rms_energy')",Logistic Regression,0.8841309823677582
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'centroid')",Logistic Regression,0.8816120906801007
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",Logistic Regression,0.8816120906801007
+"('mfccs', 'spectral_contrast', 'centroid')",Logistic Regression,0.8816120906801007
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.8816120906801007
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff')",Logistic Regression,0.8816120906801007
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid')",Logistic Regression,0.8790931989924433
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff', 'rms_energy')",Random Forest,0.8790931989924433
+"('mfccs', 'chroma', 'spectral_contrast', 'centroid', 'rms_energy')",Logistic Regression,0.8790931989924433
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.8790931989924433
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'centroid', 'rms_energy')",Logistic Regression,0.8790931989924433
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",Random Forest,0.8790931989924433
+"('mfccs', 'spectral_contrast', 'zcr')",Random Forest,0.8790931989924433
+"('mfccs', 'spectral_contrast', 'rolloff', 'rms_energy')",Logistic Regression,0.8790931989924433
+"('mfccs', 'spectral_contrast', 'zcr', 'centroid')",Logistic Regression,0.8790931989924433
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff')",Logistic Regression,0.8790931989924433
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff')",Random Forest,0.8790931989924433
+"('mfccs', 'chroma', 'spectral_contrast', 'centroid')",Logistic Regression,0.8790931989924433
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff', 'centroid')",Logistic Regression,0.8790931989924433
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff')",Logistic Regression,0.8765743073047859
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff', 'centroid')",Logistic Regression,0.8765743073047859
+"('mfccs', 'spectral_contrast', 'rolloff')",Logistic Regression,0.8765743073047859
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",Logistic Regression,0.8765743073047859
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.8740554156171285
+"('mfccs', 'chroma', 'spectral_contrast', 'centroid')",Random Forest,0.8740554156171285
+"('mfccs', 'spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.8740554156171285
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8740554156171285
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff')",Random Forest,0.8740554156171285
+"('mfccs', 'spectral_contrast', 'rolloff', 'rms_energy')",Random Forest,0.8740554156171285
+"('mfccs', 'spectral_contrast', 'zcr', 'centroid', 'rms_energy')",Logistic Regression,0.8740554156171285
+"('mfccs', 'chroma', 'spectral_contrast')",Random Forest,0.8740554156171285
+"('chroma', 'spectral_contrast', 'zcr', 'rms_energy')",Random Forest,0.8740554156171285
+"('mfccs', 'spectral_contrast', 'rms_energy')",Random Forest,0.8740554156171285
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'centroid')",Random Forest,0.871536523929471
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rms_energy')",Random Forest,0.871536523929471
+"('mfccs', 'chroma', 'spectral_contrast', 'centroid', 'rms_energy')",Random Forest,0.871536523929471
+"('chroma', 'spectral_contrast', 'zcr')",Logistic Regression,0.871536523929471
+"('chroma', 'spectral_contrast', 'zcr', 'rms_energy')",Logistic Regression,0.871536523929471
+"('spectral_contrast', 'rms_energy')",Random Forest,0.871536523929471
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff')",Random Forest,0.871536523929471
+"('chroma', 'spectral_contrast', 'rms_energy')",Logistic Regression,0.871536523929471
+"('spectral_contrast', 'zcr')",Random Forest,0.871536523929471
+"('mfccs', 'spectral_contrast', 'rolloff', 'centroid')",Logistic Regression,0.871536523929471
+"('chroma', 'spectral_contrast', 'zcr')",Random Forest,0.871536523929471
+"('mfccs', 'chroma', 'spectral_contrast', 'rms_energy')",Random Forest,0.871536523929471
+"('chroma', 'spectral_contrast')",Logistic Regression,0.871536523929471
+"('mfccs', 'spectral_contrast', 'zcr', 'centroid', 'rms_energy')",Random Forest,0.8690176322418136
+"('chroma', 'spectral_contrast', 'rolloff', 'centroid')",Random Forest,0.8690176322418136
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff')",Random Forest,0.8690176322418136
+"('spectral_contrast', 'centroid')",Random Forest,0.8690176322418136
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff', 'centroid')",Random Forest,0.8690176322418136
+"('mfccs', 'spectral_contrast', 'rolloff', 'centroid')",Random Forest,0.8690176322418136
+"('mfccs', 'spectral_contrast')",Random Forest,0.8690176322418136
+"('mfccs', 'spectral_contrast', 'rolloff')",Random Forest,0.8690176322418136
+"('chroma', 'spectral_contrast')",Random Forest,0.8664987405541562
+"('chroma', 'spectral_contrast', 'zcr', 'centroid', 'rms_energy')",Random Forest,0.8664987405541562
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8664987405541562
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr')",Random Forest,0.8664987405541562
+"('chroma', 'spectral_contrast', 'rms_energy')",Random Forest,0.8664987405541562
+"('mfccs', 'spectral_contrast', 'zcr', 'rms_energy')",Random Forest,0.8664987405541562
+"('mfccs', 'spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8664987405541562
+"('mfccs', 'spectral_contrast', 'centroid', 'rms_energy')",Random Forest,0.8664987405541562
+"('spectral_contrast', 'centroid', 'rms_energy')",Random Forest,0.8639798488664987
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8639798488664987
+"('mfccs', 'spectral_contrast', 'zcr', 'centroid')",Random Forest,0.8639798488664987
+"('spectral_contrast', 'rolloff')",Random Forest,0.8639798488664987
+"('chroma', 'spectral_contrast', 'zcr', 'centroid')",Random Forest,0.8639798488664987
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",Random Forest,0.8639798488664987
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'centroid', 'rms_energy')",Random Forest,0.8639798488664987
+"('chroma', 'spectral_contrast', 'rolloff')",Random Forest,0.8639798488664987
+"('mfccs', 'spectral_contrast', 'centroid')",Random Forest,0.8639798488664987
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid')",Random Forest,0.8614609571788413
+"('mfccs', 'centroid')",Random Forest,0.8614609571788413
+"('chroma', 'spectral_contrast', 'centroid', 'rms_energy')",Random Forest,0.8614609571788413
+"('chroma', 'spectral_contrast', 'centroid')",Random Forest,0.8614609571788413
+"('chroma', 'spectral_contrast', 'rolloff', 'rms_energy')",Random Forest,0.8614609571788413
+"('chroma', 'spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8614609571788413
+"('spectral_contrast', 'rolloff', 'rms_energy')",Random Forest,0.8614609571788413
+"('spectral_contrast', 'zcr', 'rolloff')",Random Forest,0.8614609571788413
+"('spectral_contrast', 'zcr', 'centroid', 'rms_energy')",Random Forest,0.8614609571788413
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8614609571788413
+"('spectral_contrast',)",SVM,0.8614609571788413
+"('spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8589420654911839
+"('mfccs', 'zcr', 'centroid')",Random Forest,0.8589420654911839
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff', 'centroid')",Random Forest,0.8589420654911839
+"('spectral_contrast', 'zcr', 'rms_energy')",Random Forest,0.8589420654911839
+"('spectral_contrast',)",Random Forest,0.8589420654911839
+"('spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8564231738035264
+"('chroma', 'spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.8564231738035264
+"('mfccs', 'chroma', 'centroid')",Random Forest,0.8564231738035264
+"('spectral_contrast', 'zcr', 'centroid')",Random Forest,0.8564231738035264
+"('mfccs', 'zcr', 'centroid', 'rms_energy')",Random Forest,0.8564231738035264
+"('mfccs', 'chroma', 'zcr', 'rolloff', 'rms_energy')",Random Forest,0.8564231738035264
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid')",Logistic Regression,0.8564231738035264
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",Random Forest,0.8564231738035264
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.8564231738035264
+"('mfccs', 'chroma', 'rolloff', 'rms_energy')",Random Forest,0.8564231738035264
+"('chroma', 'spectral_contrast', 'rolloff', 'centroid')",Logistic Regression,0.853904282115869
+"('spectral_contrast', 'zcr', 'rolloff', 'centroid')",Logistic Regression,0.853904282115869
+"('mfccs', 'zcr', 'rolloff', 'rms_energy')",Random Forest,0.853904282115869
+"('mfccs', 'chroma', 'zcr', 'centroid')",Random Forest,0.853904282115869
+"('spectral_contrast', 'rolloff', 'centroid')",Logistic Regression,0.853904282115869
+"('mfccs', 'rolloff', 'centroid')",Random Forest,0.853904282115869
+"('spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",Random Forest,0.853904282115869
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid')",Random Forest,0.853904282115869
+"('spectral_contrast', 'rms_energy')",SVM,0.8513853904282116
+"('mfccs', 'zcr', 'rms_energy')",Random Forest,0.8513853904282116
+"('mfccs', 'chroma', 'centroid', 'rms_energy')",Random Forest,0.8513853904282116
+"('mfccs', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8513853904282116
+"('mfccs', 'zcr')",Random Forest,0.8513853904282116
+"('spectral_contrast', 'zcr')",SVM,0.8513853904282116
+"('spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.8513853904282116
+"('mfccs', 'chroma', 'zcr', 'centroid', 'rms_energy')",Random Forest,0.8488664987405542
+"('mfccs', 'chroma', 'rolloff')",Random Forest,0.8488664987405542
+"('mfccs', 'chroma', 'zcr')",Random Forest,0.8488664987405542
+"('chroma', 'spectral_contrast', 'zcr', 'centroid')",Logistic Regression,0.8488664987405542
+"('spectral_contrast', 'rolloff', 'centroid')",Random Forest,0.8488664987405542
+"('mfccs', 'zcr', 'rolloff')",Random Forest,0.8488664987405542
+"('mfccs', 'zcr', 'rolloff', 'centroid')",Random Forest,0.8488664987405542
+"('chroma', 'spectral_contrast', 'zcr', 'centroid', 'rms_energy')",Logistic Regression,0.8488664987405542
+"('mfccs', 'chroma', 'zcr', 'rolloff')",Random Forest,0.8488664987405542
+"('spectral_contrast', 'zcr', 'rolloff', 'centroid')",Random Forest,0.8488664987405542
+"('mfccs', 'chroma', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8463476070528967
+"('mfccs', 'chroma', 'zcr', 'rolloff', 'centroid')",Random Forest,0.8463476070528967
+"('mfccs', 'rolloff')",Random Forest,0.8463476070528967
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",Logistic Regression,0.8463476070528967
+"('spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.8463476070528967
+"('chroma', 'spectral_contrast', 'rolloff', 'rms_energy')",Logistic Regression,0.8463476070528967
+"('mfccs', 'chroma', 'rolloff', 'centroid')",Random Forest,0.8463476070528967
+"('chroma', 'spectral_contrast', 'centroid', 'rms_energy')",Logistic Regression,0.8463476070528967
+"('mfccs', 'centroid', 'rms_energy')",Random Forest,0.8463476070528967
+"('mfccs', 'rolloff', 'rms_energy')",Random Forest,0.8463476070528967
+"('mfccs', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.8438287153652393
+"('mfccs', 'chroma', 'zcr', 'rms_energy')",Random Forest,0.8438287153652393
+"('mfccs', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8438287153652393
+"('chroma', 'spectral_contrast', 'centroid')",Logistic Regression,0.8438287153652393
+"('mfccs', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.8438287153652393
+"('chroma', 'spectral_contrast', 'rolloff')",Logistic Regression,0.8438287153652393
+"('mfccs', 'chroma')",Logistic Regression,0.8438287153652393
+"('spectral_contrast', 'zcr', 'rms_energy')",SVM,0.8438287153652393
+"('mfccs', 'chroma', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8438287153652393
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff')",Logistic Regression,0.8413098236775819
+"('mfccs', 'zcr', 'rolloff', 'centroid')",Logistic Regression,0.8413098236775819
+"('mfccs', 'chroma', 'zcr', 'rms_energy')",Logistic Regression,0.8413098236775819
+"('mfccs', 'chroma', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.8413098236775819
+"('spectral_contrast', 'rms_energy')",Logistic Regression,0.8413098236775819
+"('mfccs', 'chroma', 'rolloff', 'centroid')",Logistic Regression,0.8413098236775819
+"('mfccs', 'rolloff', 'centroid')",Logistic Regression,0.8413098236775819
+"('mfccs', 'chroma', 'rms_energy')",Logistic Regression,0.8413098236775819
+"('mfccs', 'zcr', 'rms_energy')",Logistic Regression,0.8413098236775819
+"('spectral_contrast', 'zcr', 'centroid')",Logistic Regression,0.8387909319899244
+"('mfccs', 'chroma', 'zcr', 'rolloff', 'centroid')",Logistic Regression,0.8387909319899244
+"('spectral_contrast', 'zcr', 'rms_energy')",Logistic Regression,0.8387909319899244
+"('spectral_contrast', 'zcr')",Logistic Regression,0.8387909319899244
+"('mfccs', 'rolloff')",Logistic Regression,0.8387909319899244
+"('spectral_contrast', 'centroid')",Logistic Regression,0.8387909319899244
+"('spectral_contrast',)",Logistic Regression,0.8387909319899244
+"('mfccs', 'chroma', 'zcr', 'rolloff', 'rms_energy')",Logistic Regression,0.836272040302267
+"('mfccs', 'rolloff', 'rms_energy')",Logistic Regression,0.836272040302267
+"('mfccs', 'chroma', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.836272040302267
+"('spectral_contrast', 'centroid', 'rms_energy')",Logistic Regression,0.836272040302267
+"('spectral_contrast', 'rolloff', 'rms_energy')",Logistic Regression,0.836272040302267
+"('spectral_contrast', 'zcr', 'centroid', 'rms_energy')",Logistic Regression,0.836272040302267
+"('mfccs',)",Logistic Regression,0.836272040302267
+"('mfccs', 'chroma', 'zcr')",Logistic Regression,0.836272040302267
+"('mfccs', 'chroma', 'centroid', 'rms_energy')",Logistic Regression,0.8337531486146096
+"('mfccs', 'centroid', 'rms_energy')",Logistic Regression,0.8337531486146096
+"('mfccs', 'zcr', 'rolloff')",Logistic Regression,0.8337531486146096
+"('mfccs', 'rms_energy')",Logistic Regression,0.8337531486146096
+"('mfccs', 'chroma', 'rolloff', 'rms_energy')",Logistic Regression,0.8337531486146096
+"('spectral_contrast', 'rolloff')",Logistic Regression,0.8337531486146096
+"('mfccs', 'chroma', 'zcr', 'rolloff')",Logistic Regression,0.8337531486146096
+"('mfccs', 'zcr')",Logistic Regression,0.8337531486146096
+"('mfccs', 'chroma', 'rolloff')",Logistic Regression,0.8312342569269522
+"('mfccs', 'zcr', 'centroid')",Logistic Regression,0.8312342569269522
+"('mfccs', 'centroid')",Logistic Regression,0.8312342569269522
+"('mfccs', 'chroma', 'zcr', 'centroid', 'rms_energy')",Logistic Regression,0.8312342569269522
+"('spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",Logistic Regression,0.8312342569269522
+"('mfccs', 'chroma', 'zcr', 'centroid')",Logistic Regression,0.8287153652392947
+"('mfccs', 'zcr', 'centroid', 'rms_energy')",Logistic Regression,0.8287153652392947
+"('mfccs', 'chroma', 'centroid')",Logistic Regression,0.8287153652392947
+"('mfccs', 'zcr', 'rolloff', 'rms_energy')",Logistic Regression,0.8287153652392947
+"('chroma', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8287153652392947
+"('spectral_contrast', 'zcr', 'rolloff')",Logistic Regression,0.8261964735516373
+"('chroma', 'rolloff', 'rms_energy')",Random Forest,0.8236775818639799
+"('chroma', 'spectral_contrast', 'zcr', 'rms_energy')",SVM,0.818639798488665
+"('chroma', 'spectral_contrast')",SVM,0.818639798488665
+"('chroma', 'spectral_contrast', 'zcr')",SVM,0.818639798488665
+"('chroma', 'rolloff', 'centroid')",Random Forest,0.818639798488665
+"('chroma', 'spectral_contrast', 'rms_energy')",SVM,0.818639798488665
+"('chroma', 'zcr', 'rolloff', 'centroid')",Random Forest,0.8161209068010076
+"('mfccs', 'chroma', 'rms_energy')",Random Forest,0.8161209068010076
+"('mfccs', 'chroma')",Random Forest,0.8136020151133502
+"('chroma', 'zcr', 'rolloff', 'rms_energy')",Random Forest,0.8110831234256927
+"('chroma', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.8060453400503779
+"('chroma', 'zcr', 'centroid', 'rms_energy')",Random Forest,0.8060453400503779
+"('chroma', 'zcr', 'rolloff')",Random Forest,0.8035264483627204
+"('mfccs', 'rms_energy')",Random Forest,0.801007556675063
+"('chroma', 'zcr', 'rms_energy')",Random Forest,0.801007556675063
+"('chroma', 'zcr', 'rolloff', 'rms_energy')",Logistic Regression,0.7984886649874056
+"('mfccs',)",Random Forest,0.7984886649874056
+"('chroma', 'rolloff')",Random Forest,0.7984886649874056
+"('chroma', 'zcr', 'rolloff')",Logistic Regression,0.7959697732997482
+"('chroma', 'zcr', 'centroid')",Random Forest,0.7934508816120907
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff')",SVM,0.7909319899244333
+"('mfccs', 'spectral_contrast', 'zcr', 'centroid')",SVM,0.7909319899244333
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff', 'rms_energy')",SVM,0.7909319899244333
+"('mfccs', 'spectral_contrast', 'centroid', 'rms_energy')",SVM,0.7909319899244333
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'centroid')",SVM,0.7909319899244333
+"('mfccs', 'spectral_contrast', 'rolloff', 'rms_energy')",SVM,0.7909319899244333
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",SVM,0.7909319899244333
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'centroid', 'rms_energy')",SVM,0.7909319899244333
+"('zcr', 'rolloff', 'centroid', 'rms_energy')",Random Forest,0.7909319899244333
+"('mfccs', 'chroma', 'spectral_contrast', 'centroid', 'rms_energy')",SVM,0.7909319899244333
+"('mfccs', 'spectral_contrast', 'zcr', 'centroid', 'rms_energy')",SVM,0.7909319899244333
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",SVM,0.7909319899244333
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff')",SVM,0.7909319899244333
+"('mfccs', 'spectral_contrast', 'rolloff')",SVM,0.7909319899244333
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff')",SVM,0.7909319899244333
+"('mfccs', 'spectral_contrast', 'centroid')",SVM,0.7909319899244333
+"('mfccs', 'chroma', 'spectral_contrast', 'centroid')",SVM,0.7909319899244333
+"('chroma', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.7909319899244333
+"('chroma', 'rolloff', 'rms_energy')",Logistic Regression,0.7884130982367759
+"('chroma', 'zcr', 'rolloff', 'centroid')",Logistic Regression,0.7884130982367759
+"('chroma', 'rolloff')",Logistic Regression,0.7884130982367759
+"('chroma', 'centroid', 'rms_energy')",Random Forest,0.7884130982367759
+"('chroma', 'rolloff', 'centroid')",Logistic Regression,0.7858942065491183
+"('rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.7858942065491183
+"('chroma', 'centroid')",Random Forest,0.7858942065491183
+"('chroma', 'zcr')",Random Forest,0.7858942065491183
+"('mfccs', 'zcr', 'centroid', 'rms_energy')",SVM,0.783375314861461
+"('chroma', 'zcr', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.783375314861461
+"('mfccs', 'centroid')",SVM,0.783375314861461
+"('mfccs', 'centroid', 'rms_energy')",SVM,0.783375314861461
+"('mfccs', 'chroma', 'centroid')",SVM,0.783375314861461
+"('mfccs', 'chroma', 'centroid', 'rms_energy')",SVM,0.783375314861461
+"('mfccs', 'zcr', 'centroid')",SVM,0.783375314861461
+"('mfccs', 'chroma', 'zcr', 'centroid')",SVM,0.783375314861461
+"('mfccs', 'chroma', 'zcr', 'centroid', 'rms_energy')",SVM,0.783375314861461
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff', 'centroid')",SVM,0.7808564231738035
+"('rolloff', 'centroid')",Logistic Regression,0.7808564231738035
+"('mfccs', 'chroma', 'rolloff')",SVM,0.7808564231738035
+"('mfccs', 'rolloff', 'rms_energy')",SVM,0.7808564231738035
+"('mfccs', 'chroma', 'zcr', 'rolloff', 'rms_energy')",SVM,0.7808564231738035
+"('mfccs', 'spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7808564231738035
+"('mfccs', 'zcr', 'rolloff')",SVM,0.7808564231738035
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid')",SVM,0.7808564231738035
+"('mfccs', 'chroma', 'zcr', 'rolloff')",SVM,0.7808564231738035
+"('mfccs', 'chroma', 'rolloff', 'rms_energy')",SVM,0.7808564231738035
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7808564231738035
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7808564231738035
+"('mfccs', 'zcr', 'rolloff', 'rms_energy')",SVM,0.7808564231738035
+"('mfccs', 'rolloff')",SVM,0.7808564231738035
+"('mfccs', 'chroma', 'spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7808564231738035
+"('mfccs', 'spectral_contrast', 'zcr', 'rolloff', 'centroid')",SVM,0.7808564231738035
+"('mfccs', 'spectral_contrast', 'rolloff', 'centroid')",SVM,0.7808564231738035
+"('zcr', 'rolloff', 'centroid')",Logistic Regression,0.7783375314861462
+"('mfccs', 'chroma', 'zcr', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7758186397984886
+"('rolloff', 'centroid', 'rms_energy')",Random Forest,0.7758186397984886
+"('mfccs', 'rolloff', 'centroid')",SVM,0.7758186397984886
+"('zcr', 'rolloff', 'centroid', 'rms_energy')",Logistic Regression,0.7758186397984886
+"('mfccs', 'chroma', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7758186397984886
+"('mfccs', 'chroma', 'rolloff', 'centroid')",SVM,0.7758186397984886
+"('zcr', 'rolloff', 'centroid')",Random Forest,0.7758186397984886
+"('mfccs', 'zcr', 'rolloff', 'centroid')",SVM,0.7758186397984886
+"('mfccs', 'zcr', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7758186397984886
+"('mfccs', 'chroma', 'zcr', 'rolloff', 'centroid')",SVM,0.7758186397984886
+"('mfccs', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7758186397984886
+"('mfccs', 'chroma', 'spectral_contrast')",SVM,0.7732997481108312
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr', 'rms_energy')",SVM,0.7732997481108312
+"('mfccs', 'spectral_contrast', 'zcr')",SVM,0.7732997481108312
+"('mfccs', 'spectral_contrast', 'rms_energy')",SVM,0.7732997481108312
+"('mfccs', 'spectral_contrast')",SVM,0.7732997481108312
+"('mfccs', 'chroma', 'spectral_contrast', 'zcr')",SVM,0.7732997481108312
+"('mfccs', 'chroma', 'spectral_contrast', 'rms_energy')",SVM,0.7732997481108312
+"('mfccs', 'spectral_contrast', 'zcr', 'rms_energy')",SVM,0.7732997481108312
+"('chroma', 'centroid', 'rms_energy')",Logistic Regression,0.7707808564231738
+"('zcr', 'rolloff', 'rms_energy')",Random Forest,0.7707808564231738
+"('chroma', 'zcr', 'centroid', 'rms_energy')",Logistic Regression,0.7682619647355163
+"('spectral_contrast', 'zcr', 'centroid')",SVM,0.7657430730478589
+"('chroma', 'spectral_contrast', 'centroid')",SVM,0.7657430730478589
+"('spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7657430730478589
+"('chroma', 'spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7657430730478589
+"('chroma', 'spectral_contrast', 'zcr', 'centroid', 'rms_energy')",SVM,0.7657430730478589
+"('spectral_contrast', 'centroid', 'rms_energy')",SVM,0.7657430730478589
+"('chroma', 'spectral_contrast', 'zcr', 'centroid')",SVM,0.7657430730478589
+"('chroma', 'spectral_contrast', 'centroid', 'rms_energy')",SVM,0.7657430730478589
+"('spectral_contrast', 'centroid')",SVM,0.7657430730478589
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid')",SVM,0.7657430730478589
+"('spectral_contrast', 'rolloff', 'centroid')",SVM,0.7657430730478589
+"('spectral_contrast', 'zcr', 'rolloff', 'centroid')",SVM,0.7657430730478589
+"('spectral_contrast', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7657430730478589
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7657430730478589
+"('spectral_contrast', 'zcr', 'centroid', 'rms_energy')",SVM,0.7657430730478589
+"('chroma', 'spectral_contrast', 'rolloff', 'centroid')",SVM,0.7657430730478589
+"('spectral_contrast', 'zcr', 'rolloff')",SVM,0.7632241813602015
+"('spectral_contrast', 'rolloff')",SVM,0.7632241813602015
+"('spectral_contrast', 'rolloff', 'rms_energy')",SVM,0.7632241813602015
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff')",SVM,0.7632241813602015
+"('chroma', 'spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",SVM,0.7632241813602015
+"('spectral_contrast', 'zcr', 'rolloff', 'rms_energy')",SVM,0.7632241813602015
+"('chroma', 'spectral_contrast', 'rolloff')",SVM,0.7632241813602015
+"('chroma', 'spectral_contrast', 'rolloff', 'rms_energy')",SVM,0.7632241813602015
+"('rolloff', 'centroid')",SVM,0.760705289672544
+"('zcr', 'rolloff', 'centroid', 'rms_energy')",SVM,0.760705289672544
+"('chroma', 'rolloff', 'centroid')",SVM,0.7581863979848866
+"('chroma', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7581863979848866
+"('rolloff', 'centroid', 'rms_energy')",SVM,0.7581863979848866
+"('chroma', 'zcr', 'rolloff', 'centroid')",SVM,0.7581863979848866
+"('chroma', 'zcr', 'centroid')",Logistic Regression,0.7581863979848866
+"('zcr', 'rolloff', 'centroid')",SVM,0.7581863979848866
+"('chroma', 'zcr', 'rolloff', 'centroid', 'rms_energy')",SVM,0.7581863979848866
+"('rolloff',)",SVM,0.7556675062972292
+"('zcr', 'rolloff', 'rms_energy')",SVM,0.7556675062972292
+"('chroma', 'rolloff')",SVM,0.7556675062972292
+"('chroma', 'zcr', 'rolloff', 'rms_energy')",SVM,0.7556675062972292
+"('rolloff', 'rms_energy')",SVM,0.7556675062972292
+"('zcr', 'rolloff')",SVM,0.7556675062972292
+"('chroma', 'rolloff', 'rms_energy')",SVM,0.7556675062972292
+"('chroma', 'zcr', 'rolloff')",SVM,0.7556675062972292
+"('rolloff',)",Logistic Regression,0.7531486146095718
+"('zcr', 'rolloff', 'rms_energy')",Logistic Regression,0.7531486146095718
+"('chroma', 'centroid')",Logistic Regression,0.7531486146095718
+"('zcr', 'rolloff')",Logistic Regression,0.7531486146095718
+"('rolloff', 'rms_energy')",Logistic Regression,0.7531486146095718
+"('rolloff', 'rms_energy')",Random Forest,0.7506297229219143
+"('zcr', 'centroid', 'rms_energy')",Random Forest,0.7455919395465995
+"('chroma', 'rms_energy')",Random Forest,0.7405541561712846
+"('zcr', 'rms_energy')",SVM,0.7380352644836272
+"('rolloff', 'centroid')",Random Forest,0.7355163727959698
+"('centroid', 'rms_energy')",SVM,0.7329974811083123
+"('zcr', 'centroid', 'rms_energy')",SVM,0.7329974811083123
+"('centroid', 'rms_energy')",Logistic Regression,0.7329974811083123
+"('chroma', 'centroid', 'rms_energy')",SVM,0.7329974811083123
+"('zcr', 'centroid', 'rms_energy')",Logistic Regression,0.7329974811083123
+"('chroma', 'zcr', 'centroid')",SVM,0.7329974811083123
+"('chroma', 'zcr', 'centroid', 'rms_energy')",SVM,0.7329974811083123
+"('chroma', 'centroid')",SVM,0.7329974811083123
+"('zcr', 'centroid')",SVM,0.7329974811083123
+"('centroid',)",SVM,0.7304785894206549
+"('zcr', 'rolloff')",Random Forest,0.7304785894206549
+"('centroid', 'rms_energy')",Random Forest,0.7229219143576826
+"('zcr', 'centroid')",Logistic Regression,0.7229219143576826
+"('centroid',)",Logistic Regression,0.7204030226700252
+"('zcr',)",SVM,0.7204030226700252
+"('chroma', 'rms_energy')",SVM,0.7128463476070529
+"('zcr', 'centroid')",Random Forest,0.707808564231738
+"('chroma', 'zcr', 'rms_energy')",SVM,0.7002518891687658
+"('zcr', 'rms_energy')",Random Forest,0.7002518891687658
+"('chroma',)",SVM,0.6977329974811083
+"('chroma',)",Random Forest,0.6876574307304786
+"('mfccs', 'chroma', 'zcr')",SVM,0.6801007556675063
+"('mfccs',)",SVM,0.6801007556675063
+"('mfccs', 'zcr', 'rms_energy')",SVM,0.6801007556675063
+"('mfccs', 'chroma', 'rms_energy')",SVM,0.6801007556675063
+"('mfccs', 'chroma', 'zcr', 'rms_energy')",SVM,0.6801007556675063
+"('mfccs', 'chroma')",SVM,0.6801007556675063
+"('mfccs', 'zcr')",SVM,0.6801007556675063
+"('mfccs', 'rms_energy')",SVM,0.6801007556675063
+"('chroma', 'zcr', 'rms_energy')",Logistic Regression,0.6775818639798489
+"('chroma', 'zcr')",SVM,0.6775818639798489
+"('chroma', 'zcr')",Logistic Regression,0.6775818639798489
+"('chroma', 'rms_energy')",Logistic Regression,0.6775818639798489
+"('chroma',)",Logistic Regression,0.6700251889168766
+"('rolloff',)",Random Forest,0.6372795969773299
+"('zcr',)",Random Forest,0.6221662468513854
+"('centroid',)",Random Forest,0.6120906801007556
+"('rms_energy',)",SVM,0.5994962216624685
+"('rms_energy',)",Logistic Regression,0.5390428211586902
+"('zcr',)",Logistic Regression,0.5365239294710328
+"('zcr', 'rms_energy')",Logistic Regression,0.5340050377833753
+"('rms_energy',)",Random Forest,0.45591939546599497
